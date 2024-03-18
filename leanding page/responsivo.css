@@ -1,0 +1,47 @@
+@charset "UTC-8";
+
+@media screen and (min-width:800px) and (max-width:2000px) {
+    body{
+        background-image: url('./assets/pexels-aleksandar-pasaric-2603464.jpg');
+        background-size: cover;
+    }
+   
+    iframe{
+        width: 800px;
+        height: 400px;
+    }
+
+    .container{
+       display:grid;
+       grid-template-columns: auto auto auto;
+       width: 770px; 
+       
+    }
+
+
+.itens{
+    margin: 40px;
+
+}
+
+.dpmt {
+    font-size: 3em;
+}
+
+.depoimento{
+    border-radius: 20px;
+    list-style: none;
+    line-height: em;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    width: 770px; 
+}
+
+.serviços {
+    font-size: 3em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+}
